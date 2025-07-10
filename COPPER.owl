@@ -290,8 +290,10 @@
      xmlns:owlready_ontology="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#">
     <owl:Ontology rdf:about="https://github.com/EBehaviourChange-COPPER/ontology/blob/main/COPPER.owl">
         <dc:creator>Developed by Maya Braun (maya.braun@ugent.be) and Stephanie Carlier (stephanie.carlier@ugent.be), under supervision of Femke De Backere, Annick De Paepe &amp; Geert Crombez.</dc:creator>
+        <dc:date>2024-04-05</dc:date>
         <rdfs:comment>The COPPER ontology was developed to support personalised and context-aware recommendations for physical activity action and coping plans within an interdisciplinary research project between the faculty of psychology and educational sciences and the faculty of engineering and architecture at Ghent University. Please find more information about COPPER here: https://github.com/EBehaviourChange-COPPER/ontology. To learn more about the development of COPPER, please see: http://doi.org/10.1186/s12966-025-01744-5</rdfs:comment>
         <rdfs:label>COntextualised and Personalised physical activity and Exercise Recommendations Ontology</rdfs:label>
+        <owl:versionInfo>2025-10-07</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -693,6 +695,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.org/dc/terms/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/date"/>
     
 
 
