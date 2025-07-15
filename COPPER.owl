@@ -2911,7 +2911,6 @@ Example 3: Organisation wide use of ‘red time’ notices that people can put o
     <!-- http://humanbehaviourchange.org/ontology/BCIO_015020 -->
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_015020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MF_0000016"/>
         <rdfs:subClassOf rdf:resource="https://github.com/EBehaviourChange-COPPER/ontology/blob/main/COPPER_5020"/>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>A person living alone in a household.</obo:IAO_0000115>
@@ -2923,7 +2922,6 @@ Example 3: Organisation wide use of ‘red time’ notices that people can put o
     <!-- http://humanbehaviourchange.org/ontology/BCIO_015021 -->
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_015021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MF_0000016"/>
         <rdfs:subClassOf rdf:resource="https://github.com/EBehaviourChange-COPPER/ontology/blob/main/COPPER_5020"/>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>A person living in  a household with at least one other person.</obo:IAO_0000115>
@@ -3126,7 +3124,6 @@ Example 3: Organisation wide use of ‘red time’ notices that people can put o
     <!-- http://humanbehaviourchange.org/ontology/BCIO_015061 -->
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_015061">
-        <rdfs:subClassOf rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_050300"/>
         <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00010029"/>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>A personal attribute inhering in a person by virtue of that person not having a paid job and not currently seeking to begin participating in an employment process.</obo:IAO_0000115>
@@ -3138,7 +3135,6 @@ Example 3: Organisation wide use of ‘red time’ notices that people can put o
     <!-- http://humanbehaviourchange.org/ontology/BCIO_015062 -->
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_015062">
-        <rdfs:subClassOf rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_050300"/>
         <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00010029"/>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>A personal attribute inhering in a person by virtue of that person not bearing a role realised in an employment process, due to being unable to work due to illness or disability.</obo:IAO_0000115>
@@ -3150,7 +3146,6 @@ Example 3: Organisation wide use of ‘red time’ notices that people can put o
     <!-- http://humanbehaviourchange.org/ontology/BCIO_015063 -->
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_015063">
-        <rdfs:subClassOf rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_050300"/>
         <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00010029"/>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>A personal attribute inhering in a person by virtue of that person not bearing a role realised in an employment process, due to being a homemaker whose work includes caring for children.</obo:IAO_0000115>
@@ -3653,7 +3648,6 @@ Every behaviour is associated with mental processes, but not every mental proces
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:BFO_0000179>continuant</obo:BFO_0000179>
         <obo:BFO_0000180>Continuant</obo:BFO_0000180>
         <obo:IAO_0000111 xml:lang="en">continuant</obo:IAO_0000111>
@@ -4014,7 +4008,6 @@ Every behaviour is associated with mental processes, but not every mental proces
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019">
         <rdfs:subClassOf rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_050300"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:BFO_0000179>quality</obo:BFO_0000179>
         <obo:BFO_0000180>Quality</obo:BFO_0000180>
         <obo:IAO_0000112 xml:lang="en">the ambient temperature of this portion of air</obo:IAO_0000112>
@@ -4064,7 +4057,6 @@ Every behaviour is associated with mental processes, but not every mental proces
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:BFO_0000179>sdc</obo:BFO_0000179>
         <obo:BFO_0000180>SpecificallyDependentContinuant</obo:BFO_0000180>
         <obo:IAO_0000111 xml:lang="en">specifically dependent continuant</obo:IAO_0000111>
@@ -4507,7 +4499,6 @@ Every behaviour is associated with mental processes, but not every mental proces
     <!-- http://purl.obolibrary.org/obo/ENVO_01001002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000254"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001000"/>
         <obo:IAO_0000115>An environmental system determined by an animal.</obo:IAO_0000115>
         <obo:IAO_0000118>Animal</obo:IAO_0000118>
@@ -4837,7 +4828,6 @@ The term &apos;distal&apos; can refer to future threats or geographically distan
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOEM_000195">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MF_0000020"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/EBehaviourChange-COPPER/ontology/blob/main/COPPER_3048"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/EBehaviourChange-COPPER/ontology/blob/main/COPPER_3151"/>
@@ -5055,6 +5045,7 @@ For instance, having a musical ability is ordinarily an ability that is positive
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MF_0000048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MF_0000043"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/EBehaviourChange-COPPER/ontology/blob/main/COPPER_3048"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/EBehaviourChange-COPPER/ontology/blob/main/COPPER_3151"/>
@@ -9168,7 +9159,6 @@ https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
 
     <owl:Class rdf:about="https://saref.etsi.org/saref4bldg/Building">
         <rdfs:subClassOf rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_006085"/>
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:Class>
     
 
@@ -9176,7 +9166,6 @@ https://github.com/SDG-InterfaceOntology/sdgio/issues/37</obo:IAO_0000116>
     <!-- https://saref.etsi.org/saref4bldg/BuildingSpace -->
 
     <owl:Class rdf:about="https://saref.etsi.org/saref4bldg/BuildingSpace">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf rdf:resource="https://github.com/EBehaviourChange-COPPER/ontology/blob/main/COPPER_2001"/>
         <rdfs:comment xml:lang="en">An entity used to define the physical spaces of the building. A building space contains devices or building objects.</rdfs:comment>
         <rdfs:label xml:lang="en">Building space</rdfs:label>
